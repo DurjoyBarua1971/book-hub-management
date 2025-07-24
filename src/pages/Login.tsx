@@ -10,7 +10,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Link } from "react-router-dom";
 
-function LoginPage() {
+function Login() {
   return (
     <div className="min-h-screen flex items-center justify-center p-4 bg-gradient-to-br from-slate-50 via-white to-slate-100">
       <div className="w-full max-w-md">
@@ -88,4 +88,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default Login;
